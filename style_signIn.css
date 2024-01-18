@@ -1,0 +1,299 @@
+
+html, body{
+    margin : 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+.header{
+    display: flex;
+    margin: 0px 300px;
+    padding: 0px 20px;
+}
+
+.header a{
+    width: 70px;
+}
+
+.header >ul > li > a{
+    color: black;
+}
+
+.header > ul >li > button{
+    background-color: white;
+    border: none;
+    font-size: 1.3rem;
+    opacity: 80%;
+    position: relative;
+}
+
+
+
+/* .header:first-child{
+    width: 40px;
+    height: 40px;
+} */
+
+.logo{
+    margin-top: 6px;
+    width: 58px;
+    height: 59px;
+    /* margin: ; */
+}
+
+.header ul{
+    /* display: flex; */
+    padding: 2px;
+    margin-top: 20px;
+    width: 856px;
+}
+
+.header ul li{
+    float: left;
+    list-style: none;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-left: 20px;
+}
+
+.header ul > li > a{
+    color: rgb(38, 37, 37);
+}
+
+.header ul >a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+span{
+    text-align: center;
+    width: 130px;
+    margin-top: 17px;
+    height: 30px;
+    font-size: 1.2rem;
+    /* border-radius: 10px;
+    border-color: rgb(232, 202, 31); */
+}
+
+span li{
+    list-style: none;
+    background-color: rgb(243, 222, 182);
+    width: 90px;
+    padding: 7px 10px;
+    border-radius: 20px;
+
+}
+
+span li a{
+    color: #FFA116;
+}
+
+span li:hover{
+    background-color: rgb(248, 210, 122);    
+}
+
+body .bg{
+    width: 100vw;
+    height: 88vh;
+    background: rgb(240, 240, 240);
+    margin: 0;
+}
+
+body .bg .signInbox{
+    background-color: white;
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.signInbox img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.signInbox input{
+    width: 80%;
+    height: 7%;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.signInbox input::placeholder{
+    font-size: 1.02rem;
+    padding-left: 10px;
+    opacity: 70%;
+}
+
+#Password{
+    margin-top: 20px;
+}
+
+#signInBtn{
+    width: 82%;
+    height: 7%;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 20px;
+    font-size: 1rem;
+    background: linear-gradient(215deg, #546e7a, #37474f);
+    color: white;
+}
+
+.frp{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left: 50%;
+    top: 17%;
+    width: 82%;
+    transform: translate(-50%, 0);
+}
+
+.frp .frpa:hover{
+    cursor: pointer;
+}
+
+.frp .sigUp:hover{
+    cursor: pointer;
+}
+
+.idsFl{
+    width: 20px;
+}
+
+.links{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    top: 16%;
+    transform: translate(-35%, 0);
+
+}
+
+.links p{
+    margin-top: 40px;
+    margin-left: 6px;
+}
+
+.links .ids{
+    display: flex;
+}
+
+.links .ids{
+    list-style: none;
+    padding: 0;
+    position: relative;
+    right: 30px;
+    top: 1px;
+    height: 10px;
+
+}
+
+.links .ids li{
+    margin-left: 10px;
+}
+
+.googeLi{
+    width: 100px;
+}
+
+.g-mail{
+    margin-top: 3px;
+    width: 46px;
+    height: 46px;
+    opacity: 50%;
+}
+
+.g-mail:hover{
+    opacity: 100%;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    opacity: 50%;
+}
+
+.facebook:hover{
+    opacity: 100%;
+}
+
+.gitHub{
+    margin-top: 7px;
+    width: 34px;
+    height: 34px;
+    opacity: 50%;
+}
+
+.gitHub:hover{
+    opacity: 100%;
+}
+
+.menu{
+    margin-top: 3px;
+    margin-left: 4px;
+    width: 43px;
+    height: 43px;
+    opacity: 50%;
+}
+
+.menu:hover{
+    opacity: 100%;
+}
+
+.signInbox .reCaptcha{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 88%;
+}
+
+.signInbox .reCaptcha p{
+    opacity: 50%;
+}
+
+.signInbox .reCaptcha p a{
+    color: black;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.nav ul{
+    display: flex;
+    margin: 0px 200px;
+    margin-top: 10px;
+}
+
+
+.nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.copyright{
+    margin-top: -3px;
+    opacity: 50%;
+}
+
+.nav ul li a{
+    font-size: 0.91rem;
+    color: black;
+}
